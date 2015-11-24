@@ -38,8 +38,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_base\Command.cs" />
     <Compile Include="_base\CommandHandler.cs" />
-    <Compile Include="_base\UnitOfWork.cs" />
-    <Compile Include="_base\UnitOfWorkManager.cs" />
+    <Compile Include="_base\Transactional.cs" />
     <Compile Include="_base\TransactionalCommandHandler.cs" />
   </ItemGroup>
   <ItemGroup>

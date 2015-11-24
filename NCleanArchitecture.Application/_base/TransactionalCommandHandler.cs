@@ -2,27 +2,27 @@ namespace NCleanArchitecture.Application._base
 {
     public class TransactionalCommandHandler<TCommand> : CommandHandler<TCommand> where TCommand : Command
     {
-        private readonly UnitOfWork _unitOfWork;
+        private readonly Transactional _transactional;
         private readonly CommandHandler<TCommand> _commandHandler;
 
-        public TransactionalCommandHandler(UnitOfWork unitOfWork, CommandHandler<TCommand> commandHandler)
+        public TransactionalCommandHandler(Transactional transactional, CommandHandler<TCommand> commandHandler)
         {
-            _unitOfWork = unitOfWork;
+            _transactional = transactional;
             _commandHandler = commandHandler;
         }
 
         public void Executar(TCommand cmd)
         {
-            _unitOfWork.BeginTransaction();
+            _transactional.BeginTransaction();
 
             try
             {
                 _commandHandler.Executar(cmd);
-                _unitOfWork.Commit();
+                _transactional.Commit();
             }
             catch
             {
-                _unitOfWork.Rollback();
+                _transactional.Rollback();
                 throw;
             }
         }

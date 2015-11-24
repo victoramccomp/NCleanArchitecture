@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCleanArchitecture.Domain",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCleanArchitecture.Application", "NCleanArchitecture.Application\NCleanArchitecture.Application.csproj", "{4303C6B8-5BAE-405A-825B-2C1869859D68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCleanArchitecture.CompositionRoot", "NCleanArchitecture.CompositionRoot\NCleanArchitecture.CompositionRoot.csproj", "{C9B69115-1679-4EC6-BB08-DA9CF100F158}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4303C6B8-5BAE-405A-825B-2C1869859D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4303C6B8-5BAE-405A-825B-2C1869859D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4303C6B8-5BAE-405A-825B-2C1869859D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B69115-1679-4EC6-BB08-DA9CF100F158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B69115-1679-4EC6-BB08-DA9CF100F158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B69115-1679-4EC6-BB08-DA9CF100F158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B69115-1679-4EC6-BB08-DA9CF100F158}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

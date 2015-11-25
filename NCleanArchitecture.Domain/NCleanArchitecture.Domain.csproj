@@ -35,6 +35,9 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes\Cliente.cs" />
+    <Compile Include="Clientes\Endereco.cs" />
+    <Compile Include="Clientes\RepositorioDeCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

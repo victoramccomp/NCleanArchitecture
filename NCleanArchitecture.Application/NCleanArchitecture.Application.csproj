@@ -35,6 +35,8 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clientes\AtualizacaoDeEndereco.cs" />
+    <Compile Include="Clientes\AtualizarEndereco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_base\Command.cs" />
     <Compile Include="_base\CommandHandler.cs" />
@@ -47,6 +49,7 @@
       <Name>NCleanArchitecture.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

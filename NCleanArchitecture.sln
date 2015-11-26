@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCleanArchitecture.Composit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCleanArchitecture.Infrastructure", "NCleanArchitecture.Infrastructure\NCleanArchitecture.Infrastructure.csproj", "{8CB13821-B0D5-4BF6-AF87-2072F9139959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NCleanArchitecture.UnitTests", "NCleanArchitecture.UnitTests\NCleanArchitecture.UnitTests.csproj", "{515629BC-7D78-4A05-9E7A-9F8D16A15F64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8CB13821-B0D5-4BF6-AF87-2072F9139959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CB13821-B0D5-4BF6-AF87-2072F9139959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CB13821-B0D5-4BF6-AF87-2072F9139959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515629BC-7D78-4A05-9E7A-9F8D16A15F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515629BC-7D78-4A05-9E7A-9F8D16A15F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515629BC-7D78-4A05-9E7A-9F8D16A15F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515629BC-7D78-4A05-9E7A-9F8D16A15F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

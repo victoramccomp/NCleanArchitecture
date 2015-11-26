@@ -39,6 +39,7 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompositionRootBootstrap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +49,14 @@
     <ProjectReference Include="..\NCleanArchitecture.Application\NCleanArchitecture.Application.csproj">
       <Project>{4303c6b8-5bae-405a-825b-2c1869859d68}</Project>
       <Name>NCleanArchitecture.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NCleanArchitecture.Domain\NCleanArchitecture.Domain.csproj">
+      <Project>{a21e5a64-e61e-4b68-9a5e-ecd68fa90d7a}</Project>
+      <Name>NCleanArchitecture.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NCleanArchitecture.Infrastructure\NCleanArchitecture.Infrastructure.csproj">
+      <Project>{8cb13821-b0d5-4bf6-af87-2072f9139959}</Project>
+      <Name>NCleanArchitecture.Infrastructure</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
